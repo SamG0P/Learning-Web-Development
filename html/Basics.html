@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>Employee info</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sammer</td>
+                <td>sam@123</td>
+            </tr>
+            <tr>
+                <td>aditya</td>
+                <td>aditya@69</td>
+            </tr>
+            <tr>
+                <td>Saugat</td>
+                <td>SaugatIsADumbass@420</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="employee.php" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+        <br>
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="gender">Gender:</label><br>
+        <label for="male">Male</label>
+        <input type="checkbox" id="male" name="gender">
+        <label for="female" >Female</label>
+        <input type="checkbox" id="female" name="gender">
+    </form>
+</body>
+</html>
