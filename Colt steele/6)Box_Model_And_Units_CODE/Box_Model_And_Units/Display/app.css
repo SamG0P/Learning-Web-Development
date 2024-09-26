@@ -1,6 +1,6 @@
 span {
-    background-color: palevioletred;
-    border: 1px solid black;
+
+    border: 2px solid black;
     width: 500px;
     padding: 50px;
     margin: 50px;
@@ -23,5 +23,4 @@ div {
     border: 5px solid black;
     display: inline-block;
     margin: 50px;
-
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML</title>
 </head>
 <body>
     <table>
@@ -29,7 +29,7 @@
             </tr>
         </tbody>
     </table>
-    <form action="employee.php" method="post">
+    <form>
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
         <br>
@@ -39,11 +39,27 @@
         <label for="password">Enter your password</label>
         <input type="password" name="password" id="password">
         <br>
+        <label for="age">Age:</label>
+        <select name="age" id="age">
+            <option value="18-40">18-40</option>
+            <option value="40-60">40-60</option>
+            <option value="60+">60+</option>
+        </select>
+        <br>
         <label for="gender">Gender:</label><br>
         <label for="male">Male</label>
-        <input type="checkbox" id="male" name="gender">
+        <input type="radio" id="male" name="gender" value="male">
         <label for="female" >Female</label>
-        <input type="checkbox" id="female" name="gender">
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+        <label for="accept">I accept the TOS</label>
+        <input type="checkbox" id="accept" name="accept" checked>
+        <br>
+        <label for="feedback">Feedback</label> <br>
+        <textarea id="feedback"rows="5" cols="20" name="feedback"></textarea>
+        <br>
+        <button type="button">register</button>
+        <input type="button" value="register">
     </form>
 </body>
 </html>

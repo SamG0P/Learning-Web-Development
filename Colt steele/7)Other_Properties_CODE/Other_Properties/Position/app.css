@@ -19,8 +19,8 @@ div {
 
 #relative #middle {
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: 20px;
+    left: 20px;
 }
 
 #absolute {
@@ -29,12 +29,12 @@ div {
 
 #absolute #middle {
     position: absolute;
-    top: 1px;
-    left: 1px;
+    top: 20px;
+    left: 20px;
 }
 
 #fixed #middle {
     position: fixed;
-    top: 0;
+    top: 400px;
     left: 400px;
 }
