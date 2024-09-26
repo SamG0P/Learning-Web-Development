@@ -1,2 +1,2 @@
 # Learning web development
-Just making small projects ,dont judge
+Just learning,dont judge
